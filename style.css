@@ -471,6 +471,9 @@ footer .text span a:hover{
 }
 @media (max-width: 445px) {
     
+    .home {
+        height: 60vh;
+    }
     .about .left img {
         height: 330px;
         width: 330px;
@@ -487,9 +490,13 @@ footer .text span a:hover{
 }
 
 @media (max-width: 400px) {
+    .home {
+        height: 55vh;
+    }
     .about .left img {
         height: 300px;
         width: 300px;
+    }
 }
 
 /* Responsive Media Query mobile menu*/
