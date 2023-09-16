@@ -139,7 +139,7 @@ nav .navbar .menu li{
     border: 2px solid transparent;
     transition: all 0.4s ease;
 
-    & a{
+    & a:link{
         color: #fff;
         font-size: 25px;
     }
@@ -522,6 +522,7 @@ footer .text span a:hover{
         display: block;
         background-color: #0E2431;
         position: fixed;
+        width: 260px;
         height: 100%;
         z-index: 999;
         transition: margin-left 0.6s ease;
