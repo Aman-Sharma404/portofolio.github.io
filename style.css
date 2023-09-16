@@ -588,6 +588,15 @@ footer .text span a:hover{
     }
 
 }
+@media (max-width: 850px) and (max-height: 450px) {
+
+    .home {
+        height: 90vh;
+        background-size: 250px 300px;
+        background-position-x: 70vw;
+        background-position-y: 100px;
+    }
+}
 
  
 
