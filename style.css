@@ -483,6 +483,10 @@ footer .text span a:hover{
 /* Responsive Media Query mobile menu*/
 @media (max-width: 800px) {
 
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+
     nav .navbar ul.menu{
         display: none;
     }
