@@ -463,7 +463,9 @@ footer .text span a:hover{
 
 }
 @media (max-width: 557px) {
-    
+    .skills-details .boxes .per {
+        font-size: 50px;
+    }
     .home {
         height: 65vh;
     }
@@ -477,6 +479,10 @@ footer .text span a:hover{
     .about .left img {
         height: 330px;
         width: 330px;
+    }
+    .skills-details .boxes .per {
+        font-size: 40px;
+    }
     .text_em {
         font-size: 50px;
     }
