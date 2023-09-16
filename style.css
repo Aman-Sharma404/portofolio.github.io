@@ -433,17 +433,17 @@ footer .text span a:hover{
 @media (max-width: 940px) {
     
     .home {
-        height: 65vh;
+        height: 90vh;
         background-size: 300px 350px;
         background-position-x: 69vw;
-        background-position-y: 145px;
+        background-position-y: 100px;
     }
 
 }
-@media (max-width: 833px) {
+@media (max-width: 840px) {
     
     .home {
-        height: 62vh;
+        height: 70vh;
     }
     .text_em {
         font-size: 60px;
@@ -455,8 +455,8 @@ footer .text span a:hover{
     .home {
         height: 60vh;
         background-size: 200px 250px;
-        background-position-x: 60vw;
-        background-position-y: 200px;
+        background-position-x: 70vw;
+        background-position-y: 100px;
     }
     .text_em {
         font-size: 50px;
@@ -469,6 +469,8 @@ footer .text span a:hover{
     }
     .home {
         height: 65vh;
+        background-position-x: 60vw;
+        background-position-y: 190px;
     }
 
 }
@@ -476,6 +478,8 @@ footer .text span a:hover{
     
     .home {
         height: 60vh;
+        background-position-x: 60vw;
+        background-position-y: 150px;
     }
     .about .left img {
         height: 330px;
@@ -498,7 +502,9 @@ footer .text span a:hover{
 
 @media (max-width: 400px) {
     .home {
-        height: 55vh;
+        height: 58vh;
+        background-position-x: 60vw;
+        background-position-y: 100px;
     }
     .about .left img {
         height: 300px;
