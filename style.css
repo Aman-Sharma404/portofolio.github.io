@@ -522,7 +522,6 @@ footer .text span a:hover{
         display: block;
         background-color: #0E2431;
         position: fixed;
-        width: 300px;
         height: 100%;
         z-index: 999;
         transition: margin-left 0.6s ease;
