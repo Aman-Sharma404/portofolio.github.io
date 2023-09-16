@@ -26,7 +26,7 @@ menuButton.addEventListener('click', () => {
 });
 
 closeButton.addEventListener('click', () => {
-    mobileNav.style = "margin-left:-100%";
+    mobileNav.style = "margin-left:-120%";
     menuButton.style = "display:block"
     mobileMenuColor();
 });
