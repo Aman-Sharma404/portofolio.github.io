@@ -16,6 +16,7 @@ let wins = [
 
 //Function to change the turn
 const changeTurn = () => turn === "X" ? "0" :  "X";
+let won = false;
 
 
 //Function to check for a win
@@ -24,6 +25,7 @@ const checkWin = ()=>{
         if((boxtext[e[0]].innerText === boxtext[e[1]].innerText) && (boxtext[e[1]].innerText === boxtext[e[2]].innerText) && (boxtext[e[0]].innerText !== ""))
         {
            info.innerText = boxtext[e[0]].innerText + " won";
+           won = true;
            boxtext[e[0]].style = "scale:1.5; color: green"
            boxtext[e[1]].style = "scale:1.5; color: green"
            boxtext[e[2]].style = "scale:1.5; color: green"
@@ -34,7 +36,7 @@ const checkWin = ()=>{
 //Game Logic
 boxes.forEach((e, index ) => {
     e.addEventListener('click', () => {
-        if(boxtext[index].innerText === "")
+        if((boxtext[index].innerText === "") && (won===false))
         {
             boxtext[index].innerText = turn;
             turn = changeTurn();
@@ -46,10 +48,11 @@ boxes.forEach((e, index ) => {
 
 reset.addEventListener('click', () => {
     turn = "X";
+    won = false;
     info.innerText = "Turn for X"
     boxtext.forEach(e => {
       e.innerText = "";
-      e.style = "scale:1; color: black"
+      e.style = "scale:1; color: black";
     })
 })
 
